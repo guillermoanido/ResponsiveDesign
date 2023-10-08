@@ -52,10 +52,13 @@ z-index: 999;
     }
     #list{
         position: absolute;
-        bottom: -45vh;
+        bottom: -60vh;
         width: 80%;
     }
 
+    #title{
+        display: none;
+    }
     
    
 }
