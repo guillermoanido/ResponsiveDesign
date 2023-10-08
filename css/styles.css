@@ -20,7 +20,7 @@
     /*Posiciòn del buscador*/
     #search {
         position: relative;
-        top: -28vh;
+        top: -25vh;
     }
     .nav-item {
         position: relative;
@@ -52,7 +52,7 @@ z-index: 999;
     }
     #list{
         position: absolute;
-        bottom: -45vh;
+        bottom: -30vh;
         width: 80%;
     }
 
