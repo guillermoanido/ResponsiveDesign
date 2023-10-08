@@ -1,0 +1,61 @@
+#title {
+    text-align: center;
+}
+
+.nav-item {
+    padding: 0.5vh 1.6vh 0.5vh 1.6vh;
+}
+
+.row {
+    align-items: center;
+}
+
+#list{
+    text-align: left;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 992px) {
+    /*Posiciòn del buscador*/
+    #search {
+        position: relative;
+        top: -28vh;
+    }
+    .nav-item {
+        position: relative;
+        top: 7vh;
+    }
+    /*Posiciòn de los divs*/
+    #wrapper{
+        position: relative;
+        width: 100%;
+    }
+    #navi{
+        position: absolute;
+        width: 100%;
+    }
+    #container{
+        position: absolute;
+        width: 100%;
+        top: 15vh;
+        z-index: -999;
+    }
+ 
+    #navbar{
+z-index: 999;
+    }
+    #listOptions {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    #list{
+        position: absolute;
+        bottom: -45vh;
+        width: 80%;
+    }
+
+    
+   
+}
