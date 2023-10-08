@@ -20,11 +20,11 @@
     /*Posiciòn del buscador*/
     #search {
         position: relative;
-        top: -26vh;
+        top: -30vh;
     }
     .nav-item {
         position: relative;
-        top: 8vh;
+        top: 7vh;
     }
     /*Posiciòn de los divs*/
     #wrapper{
