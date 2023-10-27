@@ -17,16 +17,14 @@
 
 
 @media screen and (max-width: 992px) {
-    /*Posiciòn del buscador*/
     #search {
         position: relative;
-        top: -28vh;
+        top: -30vh;
     }
     .nav-item {
         position: relative;
         top: 7vh;
     }
-    /*Posiciòn de los divs*/
     #wrapper{
         position: relative;
         width: 100%;
@@ -52,10 +50,13 @@ z-index: 999;
     }
     #list{
         position: absolute;
-        bottom: -45vh;
+        bottom: -60vh;
         width: 80%;
     }
 
+    #title{
+        display: none;
+    }
     
    
 }
